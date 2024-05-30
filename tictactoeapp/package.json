@@ -1,0 +1,23 @@
+{
+    "name": "tictactoegame",
+    "version": "1.0.0",
+    "description": "",
+    "main": "tictactoe",
+    "scripts": {
+      "start": "serve"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/trippinkantana/tictactoe.git"
+    },
+    "keywords": [],
+    "author": "Trippin Kantana",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/trippinkantana/tictactoe/issues"
+    },
+    "homepage": "https://github.com/trippinkantana/tictactoe#readme",
+    "devDependencies": {
+      "serve": "^11.2.0"
+    }
+  }

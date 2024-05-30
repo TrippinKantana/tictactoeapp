@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- tic tac toe by cyrus jentzen. want more scripts and templates? visit takendsgns.com. -->
+
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="card-container">
+      <h1>Tic Tac Toe?</h1>
+      <p>
+        Take turns to place your 'X' or 'O' on the board.<br />
+        The first player to get three in a row wins!
+      </p>
+      <div class="board" id="board">
+        <div class="cell" onclick="makeMove(0)"></div>
+        <div class="cell" onclick="makeMove(1)"></div>
+        <div class="cell" onclick="makeMove(2)"></div>
+        <div class="cell" onclick="makeMove(3)"></div>
+        <div class="cell" onclick="makeMove(4)"></div>
+        <div class="cell" onclick="makeMove(5)"></div>
+        <div class="cell" onclick="makeMove(6)"></div>
+        <div class="cell" onclick="makeMove(7)"></div>
+        <div class="cell" onclick="makeMove(8)"></div>
+      </div>
+      <div class="result" id="result">
+        <p id="win-message"></p>
+        <button id="play-again-button" onclick="resetBoard()">
+          Play Again
+        </button>
+      </div>
+
+      <div class="info-column">
+        <p>by TrippinKantana</p>
+        <p>Visit <a href="https://takendsgns.com">takendsgns.com</a></p>
+      </div>
+    </div>
+
+    <audio id="win-sound" src="win.wav" preload="auto"></audio>
+    <audio id="lose-sound" src="lose.wav" preload="auto"></audio>
+    <audio id="tie-sound" src="lose.wav" preload="auto"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
